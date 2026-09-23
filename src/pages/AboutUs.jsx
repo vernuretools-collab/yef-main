@@ -16,8 +16,8 @@ import {
 } from 'lucide-react'
 
 const aboutStats = [
-  { label: 'Total Members', value: '60+' },
-  { label: 'Chapters', value: '2' },
+  { label: 'Total Members', value: '100+' },
+  { label: 'Chapters', value: '3' },
   { label: 'Founded', value: '2025' },
   { label: 'Industry Community', value: 'Multi-sector' },
 ]

@@ -5,17 +5,17 @@ import SectionHeader from '../components/SectionHeader'
 import { Building2 } from 'lucide-react'
 
 const filters = [
-  { value: 'all',    label: 'All Chapters'  },
-  { value: 'open',   label: 'Category Open' },
-  { value: 'online', label: 'Online'        },
-  { value: 'hybrid', label: 'Hybrid'        },
+  { value: 'all',       label: 'All Chapters' },
+  { value: 'in-person', label: 'In-Person'    },
+  { value: 'online',    label: 'Online'       },
+  { value: 'hybrid',    label: 'Hybrid'       },
 ]
 
 export default function Chapters() {
   const [filter, setFilter] = useState('all')
 
   const filtered = chapters.filter(c => {
-    if (filter === 'open')   return c.category_open
+    if (filter === 'in-person') return c.mode === 'In-Person'
     if (filter === 'online') return c.mode === 'Online'
     if (filter === 'hybrid') return c.mode === 'Hybrid'
     return true

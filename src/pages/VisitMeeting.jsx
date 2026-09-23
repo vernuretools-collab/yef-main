@@ -114,6 +114,7 @@ export default function VisitMeeting() {
             eyebrow="Visit a Meeting"
             title="See YEF in action before you decide."
             subtitle="Visiting a chapter is free. You'll meet local business owners, watch referrals happen in real time, and decide if YEF is right for you."
+            accent={false}
           />
 
           <ul className="space-y-4 mt-8">

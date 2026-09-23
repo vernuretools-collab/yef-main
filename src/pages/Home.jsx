@@ -25,7 +25,7 @@ import Treasurer from "../assets/Treasurer.jpeg"
 
 // ─── Static data ───────────────────────────────────────────────────────────────
 
-const region = { totalMembers: '60+', totalChapters: 2, totalEvents: 12 }
+const region = { totalMembers: '100+', totalChapters: 3, totalEvents: 12 }
 
 const featuredMembers = [
   {
@@ -328,7 +328,7 @@ export default function Home() {
                 <span className="text-xs text-white font-medium">Global Tamil community</span>
               </div>
               <div className="flex items-center bg-[#1A2B6B] px-4 py-2 rounded-full">
-                <span className="text-xs text-white font-medium">English + Tamil</span>
+                <span className="text-xs text-white font-medium">Tamil</span>
               </div>
               <div className="flex items-center bg-[#1A2B6B] px-4 py-2 rounded-full">
                 <span className="text-xs text-white font-medium">Free membership</span>

@@ -1,4 +1,4 @@
-export default function SectionHeader({ eyebrow, title, subtitle, center = false }) {
+export default function SectionHeader({ eyebrow, title, subtitle, center = false, accent = true }) {
   return (
     <div className={`mb-10 ${center ? 'text-center mx-auto' : ''}`}>
 
@@ -6,7 +6,7 @@ export default function SectionHeader({ eyebrow, title, subtitle, center = false
       {eyebrow && (
         <div className={`flex items-center gap-2 mb-3 ${center ? 'justify-center' : ''}`}>
           {/* Red accent bar — only shown when left-aligned */}
-          {!center && (
+          {!center && accent && (
             <span className="w-1 h-4 rounded-full bg-[#D0021B] flex-shrink-0" />
           )}
           <span className="inline-flex items-center px-3 py-1 rounded-full bg-white dark:bg-[#3d0008]/50 text-[#D0021B] dark:text-[#f87171] text-xl font-bold uppercase tracking-[0.12em]">
