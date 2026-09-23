@@ -146,8 +146,7 @@ export default function Members() {
 
           {/* Stats card */}
           <div className="rounded-3xl  border border-[#C5CCE8] dark:border-[#2a3460] bg-white dark:bg-[#13192e] p-5 sm:p-6 shadow-[0_8px_32px_rgba(26,43,107,0.12)]">
-            <div className="flex items-center gap-2 mb-4 sm:mb-5">
-              <span className="w-1 h-4 rounded-full bg-[#D0021B]" />
+            <div className="mb-4 sm:mb-5">
               <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#D0021B]">Member benefits</p>
             </div>
             <p className="text-sm text-gray-700 dark:text-[#C9D2F2] italic leading-relaxed">
@@ -447,8 +446,7 @@ export default function Members() {
 
           {/* Mentor / Mentee paths */}
           <div className="xl:col-span-2 rounded-3xl border border-[#C5CCE8] dark:border-[#2a3460] bg-white dark:bg-[#13192e] p-5 sm:p-8">
-            <div className="flex items-center gap-2 mb-4">
-              <span className="w-1 h-4 rounded-full bg-[#D0021B]" />
+            <div className="mb-4">
               <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#D0021B]">Mentor / mentee</p>
             </div>
 

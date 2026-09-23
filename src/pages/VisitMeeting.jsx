@@ -179,22 +179,19 @@ export default function VisitMeeting() {
             className="bg-white dark:bg-[#13192e] rounded-3xl border border-[#C5CCE8] dark:border-[#2a3460] p-6 sm:p-8 shadow-[0_4px_24px_rgba(26,43,107,0.10)] space-y-5"
           >
             <div className="pb-4 border-b border-[#E8ECF8] dark:border-[#2a3460]">
-              <div className="flex items-center gap-2 mb-1">
-                <span className="w-1 h-5 rounded-full bg-[#D0021B]" />
-                <h3
-                  className="text-2xl font-bold text-[#1A2B6B] dark:text-[#DDE3F5]"
-                  style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
-                >
-                  Request an invitation
-                </h3>
-              </div>
+              <h3
+                className="text-2xl font-bold text-[#1A2B6B] dark:text-[#DDE3F5]"
+                style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
+              >
+                Request an invitation
+              </h3>
 
-              <p className="text-xs text-[#9AA3BF] ml-3">
+              <p className="text-xs text-[#9AA3BF] mt-1">
                 Fields marked <span className="text-[#D0021B] font-bold">*</span> are required
               </p>
 
               {refMemberId && (
-                <div className="mt-3 ml-3 inline-flex items-center px-3 py-1.5 rounded-full bg-amber-50 text-amber-700 border border-amber-200 text-xs font-semibold">
+                <div className="mt-3 inline-flex items-center px-3 py-1.5 rounded-full bg-amber-50 text-amber-700 border border-amber-200 text-xs font-semibold">
                   Invited by a YEF member
                 </div>
               )}

@@ -337,8 +337,7 @@ export default function Home() {
           </div>
 
           <div className="bg-white dark:bg-[#13192e] rounded-3xl border border-[#C5CCE8] dark:border-[#2a3460] p-6 shadow-[0_8px_32px_rgba(26,43,107,0.12)]">
-            <div className="flex items-center gap-2 mb-5">
-              <span className="w-1 h-4 rounded-full bg-[#D0021B]" />
+            <div className="mb-5">
               <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#D0021B]">
                 Community at a glance
               </p>
