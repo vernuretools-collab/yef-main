@@ -68,21 +68,21 @@ const upcomingEvents = [
 
 const forumPosts = [
   {
-    category: 'BUSINESS PRACTICE',
-    title: "When a Good Product Isn't Enough to Grow",
-    body: 'Looking at the practical factors behind business growth, from customer understanding and positioning to execution and market response.',
+    category: 'CAREER GROWTH',
+    title: 'Salary negotiation for Tamil professionals: a respectful, practical guide',
+    body: 'Navigating salary conversations in global workplaces while staying true to who you are. Real strategies, real outcomes — in Tamil and English.',
     icon: Briefcase,
   },
   {
-    category: 'LEADERSHIP',
-    title: 'The Decisions That Shape a Business Behind the Scenes',
-    body: 'A closer look at the choices around people, priorities, delegation, and direction that often determine how a business evolves.',
-    icon: Users,
+    category: 'COMMUNITY STORY',
+    title: "From Jaffna to Frankfurt: one economist's journey across three continents",
+    body: 'A Sri Lankan Tamil economist reflects on building a career in Germany — the language barriers, the small victories, and what stayed constant.',
+    icon: Globe,
   },
   {
-    category: 'MARKET INSIGHTS',
-    title: 'What Changing Customer Behaviour Means for Businesses',
-    body: 'Exploring shifts in customer expectations, buying patterns, competition, and technology that business owners need to keep an eye on.',
+    category: 'INDUSTRY INSIGHTS',
+    title: 'Tamil fintech founders are reshaping digital banking across Southeast Asia',
+    body: "From Kuala Lumpur to Singapore, Tamil-led fintech ventures are quietly building the region's financial infrastructure.",
     icon: TrendingUp,
   },
 ]
@@ -276,37 +276,33 @@ export default function Home() {
               className="text-4xl sm:text-5xl xl:text-6xl font-bold leading-[1.1] text-[#1A2B6B] dark:text-[#DDE3F5]"
               style={{ fontFamily: "'Plus Jakarta Sans', 'DM Sans', sans-serif" }}
             >
-              Where Tamil business ideas{' '}
+              Where Tamil economic voices{' '}
               <span className="relative inline-block">
-                <span className="text-[#D0021B]">come together.</span>
+                <span className="text-[#D0021B]">shape the world.</span>
                 <span className="absolute -bottom-1 left-0 right-0 h-[3px] bg-gradient-to-r from-[#D0021B] to-[#D0021B]/20 rounded-full" />
               </span>
             </h1>
 
             <p className="mt-6 text-gray-900 dark:text-[#8899d4] text-base font-bold sm:text-lg leading-relaxed max-w-lg">
-              A Tamil business community for entrepreneurs, business owners, and professionals from
-              different industries and stages of business.
+              A borderless community of Tamil professionals building influence across business,
+              economics, trade, and public policy, in the language of our roots.
             </p>
 
             <div className="mt-8 space-y-3 max-w-xl">
               <div className="flex items-start gap-3 text-sm text-gray-900 dark:text-[#DDE3F5]">
                 <Languages size={18} className="text-[#D0021B] mt-0.5" />
-                <span>
-                  Vetkai reflects the desire to seek, question, discover, and move beyond what we
-                  already know.
-                </span>
+                <span>Tamil is not just a language. It is how we think, build, and lead.</span>
               </div>
               <div className="flex items-start gap-3 text-sm text-gray-900 dark:text-[#DDE3F5]">
                 <Users size={18} className="text-[#D0021B] mt-0.5" />
                 <span>
-                  Through regular chapter gatherings in Porur, members bring different viewpoints,
-                  experiences, and ways of approaching business.
+                  Join a global forum where members share experience, opportunity, and solidarity.
                 </span>
               </div>
               <div className="flex items-start gap-3 text-sm text-gray-900 dark:text-[#DDE3F5]">
                 <Sparkles size={18} className="text-[#D0021B] mt-0.5" />
                 <span>
-                  “உள்ளுவதெல்லாம் உயர்வுள்ளல்” — aspire towards something higher.
+                  "யாம் பெற்ற இன்பம் பெறுக இவ்வையகம்" — the spirit that drives our community.
                 </span>
               </div>
             </div>
@@ -405,8 +401,10 @@ export default function Home() {
 
 
       {/* ── 3. Chapter Leadership ────────────────────────────────────────────── */}
+      ?
 
       {/* ── 4. Members ───────────────────────────────────────────────────────── */}
+     ?
 
       {/* ── 5. Upcoming events ───────────────────────────────────────────────── */}
       {/* <section className="bg-[#F5F6FA] dark:bg-[#0f1628] py-20">
@@ -466,7 +464,7 @@ export default function Home() {
               Latest from the forum
             </p>
             <h2 className="text-3xl sm:text-4xl font-bold text-[#1A2B6B] dark:text-[#DDE3F5]">
-              Ideas worth taking back to your business.
+              Conversations that matter.
             </h2>
           </div>
 
@@ -501,17 +499,16 @@ export default function Home() {
           <div className="absolute -bottom-10 -right-10 w-56 h-56 rounded-full bg-white/5 pointer-events-none" />
           <div className="relative">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[#FFB6C1] text-xs font-bold uppercase tracking-widest mb-4">
-              Vetkai — Keep seeking
+              யாம் — WE
             </span>
             <h2
               className="text-3xl sm:text-4xl font-bold leading-tight text-white"
               style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}
             >
-              Think beyond what you know.
+              One language. Thousands of careers.
             </h2>
             <p className="mt-2 text-[#8899d4] max-w-lg">
-              A space to explore new possibilities, challenge familiar thinking, and see business from
-              a wider perspective.
+              Join the community that sees language as your greatest professional asset.
             </p>
           </div>
           <Link
